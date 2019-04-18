@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;JsonResponse.java&apos; to &apos;bmdb/src/main/java/movie.util&apos;&#x0D;&#x0A;- Original project: &apos;HelloWorldSpringWebMySQL&apos;&#x0D;&#x0A;- Destination element: &apos;bmdb/src/main/java/movie.util&apos;&#x0D;&#x0A;- Original element: &apos;hello.util.JsonResponse.java&apos;" description="Copy compilation unit" destination="=bmdb/src\/main\/java&lt;movie.util" element1="/src\/main\/java&lt;hello.util{JsonResponse.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1548892658808" units="1" version="1.0"/>
+</session>

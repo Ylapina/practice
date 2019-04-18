@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class PersonManagerApp {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the Person Manager");
+		System.out.println();
+		
+		Scanner sc= new Scanner(System.in);
+		
+		String choice="y";
+		while(choice.equalsIgnoreCase("y")) {
+			System.out.println("Create customer or employee? c/e");
+			String type=sc.nextLine();
+			
+			if(type.equalsIgnoreCase("c")) {
+				System.out.println(" First Name: ");
+				String fn=sc.nextLine();
+				System.out.println("Last Name: ");
+				String ln=sc.nextLine();
+				System.out.println("Customer Number");
+				String cn=sc.nextLine();
+				
+				Person person;
+				Person c= new Customer(fn,ln,cn);
+			}else if(type.equalsIgnoreCase("e")) {
+				System.out.println(" First Name: ");
+				String fn=sc.nextLine();
+				System.out.println("Last Name: ");
+				String ln=sc.nextLine();
+				System.out.println("SSN");
+				String ssn=sc.nextLine();
+				
+				Person e= new Employee(fn,ln,ssn);
+			}
+			
+			
+		}
+
+	}
+
+}

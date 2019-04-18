@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class ContactApp {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the Contact List application");
+		System.out.println();
+		
+		Scanner sc= new Scanner(System.in);
+		String choice="y";
+		while(choice.equalsIgnoreCase("y")) {
+			System.out.println("Enter first name: ");
+			String firstName=sc.nextLine();
+			System.out.println("Enter last name:  ");
+			String lastName=sc.nextLine();
+			System.out.println("Enter email:  ");
+			String email=sc.nextLine();
+			System.out.println("Enter phone: ");
+			int phone=sc.nextInt();
+			
+			Contact contact=new Contact();
+			
+			contact.displayContact();
+			
+			System.out.println("Continue? y/n");
+			choice=sc.nextLine();
+			
+			
+		}
+
+	}
+
+}

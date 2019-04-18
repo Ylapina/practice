@@ -1,0 +1,29 @@
+
+public class Dice {
+private Die die1;
+private Die die2;
+
+public Dice() {
+	die1=new Die();
+	die2=new Die();
+}
+
+public int getDie1Value() {
+	return die1.geValue();
+}
+public int getDie2Value() {
+	return die2.geValue();
+}
+
+int sum=0;
+public int getSum() {
+	sum=die1.geValue()+die2.geValue();
+	return getSum();
+}
+public void roll() {
+	die1.roll();
+	die2.roll();
+}
+
+
+}

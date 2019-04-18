@@ -1,0 +1,37 @@
+
+public class AreaCalculatorApp {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the Area Calculator");
+		System.out.println();
+		
+		
+
+		
+		String choice="y";
+		while(choice.contentEquals("y")) {
+			
+			String type=Console.getString("Calculate area of a circle, square, or rectangle? (c/s/r): ");
+			System.out.println();
+			
+			Shape shape;
+			if(type.equalsIgnoreCase("c")) {
+				double radious=Console.getDouble("Enter radius: ");
+				shape=new Circle(radious);
+				
+			}else if(type.equalsIgnoreCase("s")) {
+				double width=Console.getDouble("Enter width: ");
+				shape=new Square(width);
+			}else if(type.equalsIgnoreCase("r")) {
+				double height=Console.getDouble("Enter height: ");
+				double width=Console.getDouble("Enter width: ");
+				shape=new Rectangle(height, width);
+			}
+			Class c = shape.getClass();
+			
+			
+		}
+
+	}
+
+}

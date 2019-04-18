@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;console&apos; to &apos;Console&apos;&#x0D;&#x0A;- Original project: &apos;Ch7_2_GradeConverter&apos;&#x0D;&#x0A;- Original element: &apos;console&apos;&#x0D;&#x0A;- Renamed element: &apos;Console&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;console&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{console.java[console" matchStrategy="1" name="Console" qualified="false" references="true" similarDeclarations="false" stamp="1554057284034" textual="false" version="1.0"/>
+</session>

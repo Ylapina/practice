@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=C\:\\repos\\prs-jpa-demo\\.git;C\:\\repos\\StuffyDispenserSpringWebMySQL\\.git;C\:\\.git;
+GitRepositoriesView.GitDirectories.relative=prs-jpa-demo\\.git;StuffyDispenserSpringWebMySQL\\.git;C\:\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

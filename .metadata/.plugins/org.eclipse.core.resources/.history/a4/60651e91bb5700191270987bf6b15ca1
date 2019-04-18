@@ -1,0 +1,30 @@
+
+public class Circle extends Shape {
+
+	private double Radious;
+
+	public Circle(double radious) {
+		super();
+		Radious = radious;
+	}
+
+	public double getRadious() {
+		return Radious;
+	}
+
+	public void setRadious(double radious) {
+		Radious = radious;
+	}
+
+	@Override
+    public double getArea() {
+        return (getRadious() * getRadious()) * Math.PI;
+    }
+
+	
+
+	
+	
+	
+	
+}

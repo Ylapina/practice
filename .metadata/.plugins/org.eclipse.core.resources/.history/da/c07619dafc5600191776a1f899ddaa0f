@@ -1,0 +1,13 @@
+
+public class Customer extends Person {
+	private String number;
+	
+	public Customer(String firstName, String lastName, String number) {
+		super(firstName, lastName);
+		
+	}
+
+	
+	
+
+}

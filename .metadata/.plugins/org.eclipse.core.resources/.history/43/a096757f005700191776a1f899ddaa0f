@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class PersonManagerApp {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the Person Manager");
+		System.out.println();
+		
+		
+		
+		String choice="Y";
+		while(choice.equalsIgnoreCase("Y")) {
+			String type=Console.getString("Create customer or employee? (c/e): ");
+			System.out.println();
+			
+			if(choice.equalsIgnoreCase("c")) {
+				String firstName=Console.getString("First name: ");
+				String lastName=Console.getString("Last name: ");
+				String customerNumber=Console.getString("Customer Number: ");
+				Person person;
+				person = new Customer(firstName, lastName, customerNumber);
+			}
+			
+		}
+
+	}
+
+}

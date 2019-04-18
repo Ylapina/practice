@@ -1,0 +1,39 @@
+
+public class Grade {
+	public int Value;
+	public int Number;
+	
+	
+	int value;
+	public Grade() {
+		value=0;
+	}
+	int number;
+	public int getNumber() {
+		return number;
+	}
+	public void setNumber(int number) {
+		this.number=number;
+	}
+	
+	public String getLetter() {
+		String letter;
+		if(number<60) {
+		letter="F"	;
+		}else if(number<60||number<67) {
+			letter="D";
+		}else if(number<67||number<79) {
+			letter="C";
+		}else if(number<80||number<87) {
+			letter="B";
+		}else {
+			letter="A";
+		}
+		return letter;
+	}
+	
+	
+	
+	
+
+}
